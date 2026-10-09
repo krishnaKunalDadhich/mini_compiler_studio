@@ -11,6 +11,32 @@ This project integrates two consecutive compiler phases:
 
 The lexer is a manually written character-by-character scanner. Its output is a `List[Token]`. That exact token stream is passed to a manually written Recursive Descent Parser.
 
+## Project Output
+
+### Application Dashboard
+
+The main application interface for interacting with Mini Compiler Studio and exploring its compiler front-end workflow.
+
+![Mini Compiler Studio Application Dashboard](screenshots/dashboard.png)
+
+*Figure 1: Application dashboard of Mini Compiler Studio.*
+
+### Successful Compilation
+
+This screenshot illustrates a successful compilation example within the application's interface.
+
+![Mini Compiler Studio Successful Compilation](screenshots/successful-compilation.png)
+
+*Figure 2: Successful compilation demonstration.*
+
+### Syntax Error Handling
+
+This screenshot demonstrates the application's interface when a syntax error is encountered during input processing.
+
+![Mini Compiler Studio Syntax Error](screenshots/syntax-error.png)
+
+*Figure 3: Syntax error handling demonstration.*
+
 ## Run
 
 ```bash
@@ -62,3 +88,4 @@ Final Result
 ## Important scope note
 
 String literals and several operators are recognized by the lexer to demonstrate lexical coverage, but the small syntax grammar intentionally accepts only the constructs documented above. This keeps the project suitable for a Compiler Design Lab viva.
+
