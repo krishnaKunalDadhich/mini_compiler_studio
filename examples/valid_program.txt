@@ -1,0 +1,4 @@
+int x = 10;
+float price = 25.5;
+int total = x + 20;
+total = total * 2;
